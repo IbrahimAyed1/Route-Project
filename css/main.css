@@ -1,0 +1,67 @@
+.height{
+    height: 200vh;
+  }
+  /* 
+    ============
+        navbar
+    ============
+  */
+  .shy-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  transition: all 200ms ease-out;
+  background: rgba(255,255,255,.8);
+  }
+  
+  .is-watching {
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+  }
+  /* 
+    ============
+        footer
+    ============
+  */
+  .footer-v1.bg-img {
+    background-color: #343a40;
+    background-repeat: repeat;
+  }
+  
+  .link-list {
+    color: rgb(199, 190, 190);
+    text-decoration: none;
+  }
+  .link-list:hover{
+    color: white;
+    text-decoration: none;
+  }
+  .links::after{
+    border-bottom: red 10px solid ;
+    width: 80%;
+  }
+  .partaions::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    border-top: rgb(199, 190, 190) solid 1px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  .social{
+    color: rgb(199, 190, 190);
+    cursor: pointer;
+  }
+  .social .face:hover{
+    color: #3b5998;
+  }
+  .social .twitt:hover{
+    color: #00acee;
+  }
+  .social .rss:hover{
+    color: #FF6600;
+  }
+  
