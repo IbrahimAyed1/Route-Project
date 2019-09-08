@@ -231,7 +231,7 @@ label,.submit{
 }
 
 .carousel-inner{
-    width: 700px;
+    width: 100%;
     margin-top: 50px;
     height: 275px;
     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
@@ -281,36 +281,6 @@ padding: 25px;
 .righttitle h3{
     position: relative;
 }
-.righttitle h3::before{
-    content: "";
-    left: 210px;
-    right: 0;
-    margin: 0 auto;
-    position: absolute;
-    border-color: #007EA7;
-    border-style: solid;
-    border-width: 1px 0;
-    bottom: 0;
-    top:35px;
-    padding: 4px 0 5px;
-    width: 70px;
-  
-}
-.righttitle h3::after{
-    content: "";
-    background-color: #007EA7;
-    bottom: 5px;
-    height: 1px;
-    width: 130px;
-    left: 200px;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    top:40px;
-}
-
-
-
 
 
 
